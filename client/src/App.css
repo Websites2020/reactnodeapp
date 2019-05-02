@@ -33,17 +33,67 @@
   }
 }
 
-.font1 {
-  font-family: 'Dancing Script', cursive;
-  font-size: 30px;
+.gloria {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 40px;
 }
 
-.font2 {
-  font-family: 'Shadows Into Light', cursive;
-  font-size: 30px;
+.marker {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 40px;
 }
 
-.font3 {
-  font-family: 'Righteous', cursive;
-  font-size: 30px;
+.picture {
+  font-family: 'Black And White Picture', sans-serif;
+  font-size: 40px;
+}
+
+/* .satisfy {
+  font-family: 'Satisfy', cursive;
+  font-size: 40px;
+}
+
+.courgette {
+  font-family: 'Courgette', cursive;
+  font-size: 40px;
+} */
+
+.lucky {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 40px;
+}
+
+.kaushan {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 40px;
+}
+
+.vibes {
+  font-family: 'Great Vibes', cursive;
+  font-size: 40px;
+}
+
+.fredoka {
+  font-family: 'Fredoka One', cursive;
+  font-size: 40px;
+}
+
+.nokora {
+  font-family: 'Nokora', serif;
+  font-size: 40px;
+}
+
+.sacramento {
+  font-family: 'Sacramento', cursive;
+  font-size: 40px;
+}
+
+.bangers {
+  font-family: 'Bangers', cursive;
+  font-size: 40px;
+}
+
+.schoolbell {
+  font-family: 'Schoolbell', cursive;
+  font-size: 40px;
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+// import Bootstrap from 'bootstrap';
 
 class App extends React.Component {
   constructor(props) {
@@ -50,17 +51,32 @@ class App extends React.Component {
 
 render() {
   return (
-    <div className="App">
+    <div>
       <header className="App-header">
         <h1>Style Maker</h1>
       </header>
-
-      <p>{this.state.response}</p>
+      <div className="App container">
+      <div class="row">
+        <div class="col">
+          <p>{this.state.response}</p>
+        </div>
+      </div>
         <form onSubmit={this.handleSubmit}>
-          <p>
-            <strong>Write your message:</strong>
-          </p>
+        <div class="row">
+          <div class="col">
+            <p>
+              <strong>Write your message:</strong>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+        <div class="col-md-3"></div>
+          <div class="col-md-6">
+          <div className="form-group">
           <textarea
+            width="20%"
+            className="form-control"
+            autofocus
             rows="4"
             cols="50"
             type="text"
@@ -70,18 +86,39 @@ render() {
             onChange={this.handleChange}
           >
           </textarea>
+          </div>
+          <div class="col-md-3"></div>
+          </div>
+        </div>
           <br/>
-          <select name="fonts" onChange={this.handleChange2}>
+          <div class="row">
+          <div class="col-md-4"></div>
+          <div class="col-md-4">
+          <div className={"form-group"}>
+          <select className="form-control" width="20%" name="fonts" onChange={this.handleChange2}>
               <option value="font0">Normal</option>
-              <option value="font1">Cursive</option>
-              <option value="font2">fun</option>
-              <option value="font3">bold</option>
+              {/* <option value="gloria">gloria</option> */}
+              <option value="marker">marker</option>
+              <option value="picture">picture</option>
+              {/* <option value="satisfy">satisfy</option>
+              <option value="courgette">courgette</option> */}
+              <option value="lucky">lucky</option>
+              {/* <option value="kaushan">kaushan</option> */}
+              <option value="vibes">vibes</option>
+              <option value="fredoka">fredoka</option>
+              {/* <option value="nokora">nokora</option> */}
+              <option value="sacramento">sacramento</option>
+              <option value="bangers">bangers</option>
+              <option value="schoolbell">schoolbell</option>
           </select>
-
+          </div>
+          </div>
+          <div class="col-md-4"></div>
+          </div>
           {/* <button type="submit">Submit</button> */}
         </form>
         <p className={this.state.font}>{this.state.responseToPost}</p>
-
+      </div>
     </div>
   );
 }
