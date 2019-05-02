@@ -32,3 +32,18 @@
     transform: rotate(360deg);
   }
 }
+
+.font1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+}
+
+.font2 {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 30px;
+}
+
+.font3 {
+  font-family: 'Righteous', cursive;
+  font-size: 30px;
+}
